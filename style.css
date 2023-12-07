@@ -1,7 +1,13 @@
 body {
     height: 100vh;
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+
+}
+
+* {
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -9,6 +15,32 @@ body {
     src: url(fonts/Norse-Bold.otf);
     font-weight: normal;
     font-style: normal;
+}
+
+#Body {
+    height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+#Logo-Section {
+    display: flex;
+    height: 100%;
+    flex: 3;
+    border: 1px solid black;
+}
+
+.logo-image {
+    height: fit-content;
+}
+
+#Forum-Section {
+    display: flex;
+    height: 100%;
+    flex: 6;
+    border: 1px solid black;
 }
 
 h1 {
