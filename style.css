@@ -30,10 +30,20 @@ body {
     height: 100%;
     flex: 3;
     border: 1px solid black;
+    position: relative;
 }
 
 .logo-image {
-    height: fit-content;
+    object-fit: fill;
+    width: 100%;
+}
+.logo {
+ 
+}
+
+.odin-image {
+    position: absolute;
+    height: 50px;
 }
 
 #Forum-Section {
