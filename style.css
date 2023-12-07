@@ -19,17 +19,16 @@ body {
 
 #Body {
     height: 100vh;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding: 10vh;
     background-color: rgb(255, 255, 255);
     display: flex;
+    background-color: rgb(13, 13, 13);
 }
 
 #Logo-Section {
     display: flex;
     height: 100%;
-    flex: 3;
-    border: 1px solid black;
+    flex: 4;
     position: relative;
 }
 
@@ -38,19 +37,38 @@ body {
     width: 100%;
 }
 .logo {
- 
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    height: 100px;
+    width: 100%;
+}
+
+.logo-text {
+    color: white;
+    font-size: 60px;
 }
 
 .odin-image {
+    height: 80%;
+}
+
+.credit-text {
     position: absolute;
-    height: 50px;
+    bottom: .05%;
+    left: 30%;
+    font-size: 9px;
+    color: white;
 }
 
 #Forum-Section {
     display: flex;
     height: 100%;
-    flex: 6;
-    border: 1px solid black;
+    flex: 7;
+    background-color: white;
 }
 
 h1 {
