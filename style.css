@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(fonts/Norse-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Norse-Bold', sans-serif;
+}
