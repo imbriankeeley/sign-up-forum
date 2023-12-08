@@ -42,40 +42,43 @@
             <div class="forum-div forum-header">Let's do this!</div>
 
             <div class="forum-div">
-                <form action="na.com/na" method="get">
+                <form action="na.com/na" method="post">
                     <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name">
+                    <input type="text" id="first_name" name="first_name" placeholder="John">
                 </form>
-                <form action="na.com/na" method="get">
+                <form action="na.com/na" method="post">
                     <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name">
+                    <input type="text" id="last_name" name="last_name" placeholder="Doe">
                 </form>
             </div>
             <div class="forum-div">
-                <form action="na.com/na" method="get">
+                <form action="na.com/na" method="post">
                     <label for="email">EMAIL</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
                 </form>
-                <form action="na.com/na" method="get">
+                <form action="na.com/na" method="post">
                     <label for="phone_number">PHONE NUMBER</label>
-                    <input type="number" id="phone_number">
+                    <input type="number" id="phone_number" name="phone_number" placeholder="(123)-456-7890" minlength="10">
                 </form>
             </div>
             <div class="forum-div">
-                <form action="na.com/na" method="get">
+                <form action="na.com/na" method="post">
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password">
+                    <input type="password" id="password" name="password" placeholder="********" minlength="8" required>
                 </form>
-                <form action="na.com/na" method="get">
+                <form action="na.com/na" method="post">
                     <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm_password">
+                    <input type="password" id="confirm_password" name="confirm_password" placeholder="********" minlength="8" required>
                 </form>
             </div>
 
         </div>
 
         <div class="bottom-forum">
-
+            <div class="create-account">
+                <button class="account-button" type="submit">Create Account</button>
+            </div>
+            <div class="login">Already have an account? <a href="na.com/na"><span class="login-text">Log in</span></a></div>
         </div>
     </div>
 

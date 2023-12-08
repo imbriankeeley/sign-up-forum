@@ -114,6 +114,7 @@ h1 {
 .middle-forum {
     display: flex;
     flex-direction: column;
+    padding-bottom: 15px;
     flex: 7;
     background-color: white;
     box-shadow: 10px 10px 10px 10px;
@@ -123,7 +124,6 @@ h1 {
     display: flex;
     width: 100%;
     height: 25%;
-    border: 1px solid black;
     padding-left: 5%;
     justify-content: start;
     align-items: center;
@@ -152,15 +152,44 @@ form {
 input {
     width: 150px;
     height: 20px;
-    border: 1px solid rgb(172, 172, 172);
+    border: 1px solid #E5E7EB;
     border-radius: .2rem;
     background-color: rgb(254, 252, 248);
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 1px 1px 1px 1px blue;
 }
 
 
 
 .bottom-forum {
     display: flex;
+    flex-direction: column;
     flex: 8;
     background-color: rgb(251, 251, 251);
+    padding: 10px;
+}
+
+.create-account {
+    margin: 10px;
+}
+
+.account-button {
+    border-radius: .4rem;
+    border: 0;
+    height: 35px;
+    width: 150px;
+    background-color: #596D48;
+    color: white;
+}
+
+.login {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.login-text {
+    color: #596D48;
 }
