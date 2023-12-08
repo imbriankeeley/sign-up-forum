@@ -25,6 +25,11 @@ body {
     background-color: rgb(13, 13, 13);
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #Logo-Section {
     display: flex;
     height: 100%;
