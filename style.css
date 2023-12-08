@@ -66,6 +66,7 @@ body {
 
 #Forum-Section {
     display: flex;
+    flex-direction: column;
     height: 100%;
     flex: 7;
     background-color: white;
@@ -73,4 +74,47 @@ body {
 
 h1 {
     font-family: 'Norse-Bold', sans-serif;
+}
+
+.top-forum {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    background-color: rgb(251, 251, 251);
+    justify-content: end;
+    align-items: start;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    gap: 15px;
+}
+
+.top-box {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(31, 31, 31);
+}
+
+.middle-forum {
+    display: flex;
+    flex: 7;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.bottom-forum {
+    display: flex;
+    flex: 8;
+    background-color: rgb(251, 251, 251);
 }
